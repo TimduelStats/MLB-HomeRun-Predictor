@@ -97,4 +97,6 @@ predictions = xgb_model_loaded.predict(today_data[features])
 today_data['predicted_homerun'] = predictions
 today_data['batter_id'] = today_data['batter_id'].map(batter)
 filtered_data = today_data.loc[today_data['predicted_homerun'] != 0]
+# Add team name based on batter name
+filtered_data['team'] = filtered_data['batter_id'].map(player_map.player_team)
 filtered_data.to_csv('./predicted_homeruns2.csv', index=False)
