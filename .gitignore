@@ -1,0 +1,13 @@
+# .gitignore
+
+# Virtual environment
+myvenv/
+# json file
+*.json
+
+*.csv
+# python cache
+__pycache__/
+
+# scripts
+*.sh
