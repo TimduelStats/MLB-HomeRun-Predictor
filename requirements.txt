@@ -1,0 +1,17 @@
+beautifulsoup4==4.12.3
+certifi==2024.8.30
+charset-normalizer==3.3.2
+decorator==5.1.1
+idna==3.8
+joblib==1.4.2
+jsonschema==4.23.0
+numpy==2.1.1
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+requests==2.32.3
+scipy==1.14.1
+selenium==4.24.0
+soupsieve==2.6
+urllib3==2.2.2
+xgboost==2.1.1
