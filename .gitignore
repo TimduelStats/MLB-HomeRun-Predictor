@@ -2,6 +2,7 @@
 
 # Virtual environment
 myvenv/
+.venv/
 # json file
 *.json
 
