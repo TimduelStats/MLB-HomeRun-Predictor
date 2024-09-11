@@ -1,9 +1,0 @@
-pandas==2.2.2
-numpy==2.1.1
-joblib==1.4.2
-xgboost==2.1.1
-requests==2.32.3
-decorator==5.1.1
-jsonschema==4.23.0
-pytz==2023.4
-boto3==1.26.86
